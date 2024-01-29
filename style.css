@@ -1,0 +1,72 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1 {
+    color: pink;
+    font-size: 60px;
+}
+
+p {
+    font-size: 20px;
+    color: red;
+}
+
+h2 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+h3 {
+    color: rgb(93, 238, 190);
+}
+
+h4 {
+    color: orange;
+}
+
+h5 {
+    color: hotpink;
+}
+
+h6 {
+    color: midnightblue;
+}
+
+a {
+    color: rgb(157, 83, 227);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:visited {
+    color: red;
+}
+
+hr {
+    border-top: 5px dotted red;
+    border-bottom: none;
+}
+
+ul {
+    list-style-type: square;
+    color: purple;
+}
+
+ul li {
+    display: inline;
+}
+
+ol li {
+    font-size: 40px;
+}
