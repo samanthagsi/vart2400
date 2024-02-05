@@ -1,0 +1,54 @@
+body {
+    background-color: #ffbed3; /* Pastel Yellow */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title-image {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .title-image img {
+    max-width: 400px;
+    max-height: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    filter: none;
+  }
+
+  .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    max-width: 400px;
+    max-height: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    filter: grayscale(100%);
+  }
+
+  .image-container img:hover {
+    filter: none;
+  }
+  
+  .image-description {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: red;
+  } 
+  
+  p {
+    font-family: 'Courier', monospace;
+  }
