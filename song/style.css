@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*means that paddings and borders are included in height and width*/
+    background-color: pink;
+    color: black;
+}
+
+.title {
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: large;
+    padding: 80px;
+    text-align: center;
+    font-style: italic;
+}
+
+.content {
+    font-family: 'IM Fell DW Pica', serif;
+    padding: 20px;
+    font-size: 14px;
+    position: relative;
+}
+
+.one {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.two {
+    position: absolute;
+    top: 250px;
+    right: 350px;
+    text-align: center;
+}
+
+.three {
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
