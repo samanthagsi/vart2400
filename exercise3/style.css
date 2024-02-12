@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*means that paddings and borders are included in height and width*/
+    transform: rotate(-0.25deg);
+    background-color: rgb(255, 209, 216);
+}
+
+.title {
+    font-size: 350px;
+    font-weight: bold;
+    font-family: 'Pinyon Script', cursive;
+    color: antiquewhite;
+    z-index: 10;
+    position: absolute;
+}
+
+.me {
+    text-align: start;
+}
+
+.hw {
+    text-align: end;
+    margin-inline-start: 700px;
+}
+
+.content {
+    padding: 0px 40px 0px 50px;
+    margin: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    color: navy;
+    z-index: 20;
+    position: absolute;
+    background-color: transparent;
+}
+
+h2 {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0px 150px 40px 150px;
+    background-color: transparent;
+}
+
+.one {
+    font-size: 12px;
+    text-align: justify;
+    margin: 0px 50px 40px 50px;
+    background-color: transparent;
+}
+
+.two {
+    font-size: 12px;
+    text-align: justify;
+    margin: 0px 50px 40px 50px;
+    background-color: transparent;
+
+}
+
+.three {
+    font-size: 12px;
+    text-align: justify;
+    margin: 0px 50px 40px 50px;
+    background-color: transparent;
+}
+
+.four {
+    font-size: 12px;
+    text-align: justify;
+    margin: 0px 50px 40px 50px;
+    background-color: transparent;
+}
+
+p {
+    background-color: transparent;
+}
