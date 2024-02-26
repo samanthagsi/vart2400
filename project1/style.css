@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif; /* Applying Poppins font */
+    background-color: #9f9bc0; /* Background color */
+}
+
+.header {
+    position: relative;
+}
+
+.almond {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    max-width: 100px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    bottom: 200px;
+    max-width: 30%;
+    transform: rotate(-10deg);
+}
+
+.content {
+    color: black;
+    margin-top: 200px; 
+    margin-left: 650px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    color: #b9c1c3;
+    text-align: right;
+    font-size: 100px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    padding: 30px;
+    background-color: #cca232;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: right;
+}
+
+p {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+a {
+    color: #cf33ae;
+}
+
+.middle {
+    display: flex;
+    background-color: #cca232;
+}
+
+.amygdala {
+    max-width: 50%;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h4 {
+    font-size: 30px;
+    color:black;
+    text-align: left;
+    margin-left: 100px;
+    max-width: 50%;
+    margin-top: 250px;
+    margin-bottom: 200px;
+}
+
+.last {
+    background-color: #cf33ae;
+    padding: 0;
+}
+
+.namjoon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+
+h5 {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.last h1 {
+    color: #cca232;
+    font-size: 200px;
+    margin: 0px;
+    font-weight: 800;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+.last h6 {
+    color: #cca232;
+    font-size: 200px;
+    margin: 0px;
+    font-weight: 800;
+    text-align: right;
+    margin-bottom: 0px;
+    margin-right: 50px;
+}
+
+.review {
+    background-color: black;
+    padding: 200px;
+    height: 600px;
+}
+
+.review p {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: justify;
+    color: #9f9bc0;
+    margin-top: 150px;
+}
+.review h3 {
+    color: #9f9bc0;
+}
+
+.review a {
+    color: #cca232;
+}
