@@ -1,0 +1,140 @@
+* {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title {
+    font-size: 50px;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.top-left {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding-left: 50px;
+}
+
+.top-right {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    padding-right: 50px;
+}
+
+.bottom-left {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    padding-left: 50px;
+}
+
+.bottom-right {
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    padding-right: 50px;
+}
+
+.content {
+    color: black;
+}
+
+/* styles specific to each box */
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven {
+    padding: 20px;
+    position: fixed;
+}
+
+.one {
+    top: 120px;
+    left: 50px;
+    max-width: 20%;
+    background-color: pink;
+}
+
+.two {
+    top: 250px;
+    left: 250px;
+    max-width: 25%;
+    background-color: rgb(164, 227, 224);
+}
+
+.three {
+    top: 350px;
+    left: 400px;
+    max-width: 18%;
+    background-color: lightskyblue;
+}
+
+.four {
+    top: 300px;
+    left: 720px;
+    max-width: 10%;
+    background-color: lightgoldenrodyellow;
+}
+
+.five {
+    top: 400px;
+    left: 910px;
+    max-width: 12%;
+    background-color: lightsalmon;
+}
+
+.six {
+    top: 280px;
+    left: 1000px;
+    max-width: 20%;
+    background-color: rgb(188, 255, 188);
+}
+
+.seven {
+    top: 130px;
+    left: 1200px;
+    max-width: 16%;
+    background-color: plum;
+}
+
+/* container for the boxes */
+.box-container {
+    white-space: nowrap;
+    display: inline-block;
+    width: 100%; /* ensures boxes take full width on smaller screens */
+}
+
+/* media query for smaller screens */
+@media (max-width: 1500px) {
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six,
+    .seven {
+        position: relative;
+        max-width: 100%;
+        width: auto;
+        left: auto;
+        top: 120px;
+        display: inline-block; /* ensures boxes stack horizontally */
+        margin: 2px; /* adds some space between the boxes */
+    }
+
+    .box-container {
+        display: block;
+    }
+
+    .title {
+        font-size: 3vw; /* adjusts font size based on viewport width */
+    }
+}
