@@ -1,0 +1,248 @@
+* {
+    background-color: rgb(255, 221, 226);
+}
+
+body {
+    position: relative;
+    overflow-y: auto;
+}
+
+#title {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    z-index: 100;
+}
+
+#title h1 {
+    color: black;
+    font-family: "gopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    background: none;
+}
+
+img {
+    max-width: 200px;
+}
+
+.image-link {
+    position: fixed;
+    cursor: pointer;
+}
+
+.exercise1 img  {
+    position: fixed;
+    top: 15%;
+    left: 8%;
+    background: none;
+    z-index: 99;
+}
+
+.txt1 {
+    color: black;
+    font-family: "gopher", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: none;
+    display: none;
+}
+
+.exercise2 img {
+    position: fixed;
+    top: 55%;
+    left: 40%;
+    background: none;
+    z-index: 98;
+}
+
+.txt2 {
+    color: black;
+    font-family: "gopher", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: none;
+    display: none;
+}
+
+.exercise3 img {
+    position: fixed;
+    top: 8%;
+    left: 80%;
+    background: none;
+    z-index: 97;
+}
+
+.txt3 {
+    color: black;
+    font-family: "gopher", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: none;
+    display: none;
+}
+
+.exercise4 img {
+    position: fixed;
+    top: 70%;
+    left: 10%;
+    background: none;
+    z-index: 96;
+}
+
+.txt4 {
+    color: black;
+    font-family: "gopher", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: none;
+    display: none;
+}
+
+.project1 img {
+    position: fixed;
+    top: 65%;
+    left: 60%;
+    background: none;
+    z-index: 95;
+}
+
+.txt5 {
+    color: black;
+    font-family: "gopher", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: none;
+    display: none;
+}
+
+.project2 img {
+    position: fixed;
+    top: 75%;
+    left: 30%;
+    background: none;
+    z-index: 94;
+}
+
+.txt6 {
+    color: black;
+    font-family: "gopher", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: none;
+    display: none;
+}
+
+.project3 img {
+    position: fixed;
+    top: 15%;
+    left: 45%;
+    background: none;
+    z-index: 93;
+}
+
+.txt7 {
+    color: black;
+    font-family: "gopher", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: none;
+    display: none;
+}
+
+.project4 img {
+    position: fixed;
+    top: 70%;
+    left: 80%;
+    background: none;
+    z-index: 92;
+}
+
+.txt8 {
+    color: black;
+    font-family: "gopher", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: none;
+    display: none;
+}
+
+#reflection-container {
+    margin-top: 100%;
+}
+
+#reflection {
+    margin: 80px;
+}
+
+#reflection h2 {
+    color: black;
+    font-family: "gopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 34px;
+    background: none;
+}
+
+#reflection h3 {
+    color: black;
+    font-family: "gopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: none;
+    text-decoration: underline;
+}
+
+#reflection p {
+    color: black;
+    font-family: "gopher", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 24px;
+    background: none;
+    text-align: justify;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: lightseagreen;
+    border: none;
+    width: 100%;
+    height: 20px;
+}
+
